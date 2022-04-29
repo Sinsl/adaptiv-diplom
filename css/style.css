@@ -39,6 +39,7 @@
 }
 .header-container {
     width: 100%;
+    max-width: 1200px;
     padding: 0 15px;
     margin: 0 auto;
     display: flex;
@@ -63,6 +64,9 @@
 .header-nav li a {
     text-decoration: none;
     color: #ffffff;
+}
+.header-nav li a:hover {
+    text-decoration: underline;
 }
 .header-title {
     max-width: 680px;
@@ -399,14 +403,16 @@ h4, h5 {
     padding: 15px;
 }
 .subscription input {
+    -webkit-appearance: none;
+    -moz-appearance: none;
     font-size: 13px;
     color: #000000;
     background-color: #f4f7f6;
-    border: 1px solid #f4f7f6;
+    border: none;
 }
 .subscription input:focus {
     background-color: #f4f7f6;
-    border: 1px solid #b59f5b;
+    outline: 1px solid #b59f5b;
 }
 .subscription button {
     font-size: 14px;
@@ -426,11 +432,12 @@ h4, h5 {
 }
 .search input {
     -webkit-appearance: none;
+    -moz-appearance: none;
     display: block;
     width: 100%;
     height: 48px;
     padding-left: 15px;
-    border: 1px solid #f4f7f6;
+    border: none;
     background-color: #f4f7f6;
     color: #000000;
     font-size: 13px;
@@ -448,6 +455,10 @@ h4, h5 {
     background-position: center;
     background-size: 18px 18px;
     cursor: pointer;
+}
+.search input:focus {
+    background-color: #f4f7f6;
+    outline: 1px solid #b59f5b;
 }
 .search button:hover {
     background-color: #323232;
