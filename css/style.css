@@ -109,7 +109,7 @@ h4, h5 {
     background-color: rgba(0,0,0,0.7);
     z-index: 5;
     font-family: "Open Sans";
-//    display: none;
+    display: none;
 }
 .close-popup{
     position: absolute;
