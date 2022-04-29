@@ -109,7 +109,7 @@ h4, h5 {
     background-color: rgba(0,0,0,0.7);
     z-index: 5;
     font-family: "Open Sans";
-    display: none;
+//    display: none;
 }
 .close-popup{
     position: absolute;
@@ -148,8 +148,8 @@ h4, h5 {
     -webkit-appearance: none;
     -moz-appearance: none;
     color: #aaaaaa;
-    display: block;
     width: 100%;
+    display: block;
     border: none;
     background-color: #f4f7f6;
     border-radius: 0;
@@ -161,6 +161,9 @@ h4, h5 {
     background-size: 10px;
     background-repeat: no-repeat;
     background-position: right 10px center;
+}
+.section-textarea textarea {
+    max-width: 100%;
 }
 .section-select select:focus,
 .section-textarea textarea:focus {
